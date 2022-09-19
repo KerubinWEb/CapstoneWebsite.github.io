@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8.5rem;
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 5%);
+}
+
+nav ul li {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10px;
+}
+nav ul a {
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    font-weight: 900 bold;
+}
+.icon {
+    display: inline-flex;
+}
+.icon img {
+
+    margin-left: 5px;
+}
+.logo a {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #BF9742;
+}
+.logo span {
+    color: black;
+}
+
+
+section {
+    padding: 2rem 9%;
+}
+.home {
+    display: flex;
+    text-align: center;
+    align-items: center;;
+    flex-wrap: wrap-reverse;
+    gap: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.home .image {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 41rem;
+    flex: 1 1 41rem;
+    margin: 2rem 0;
+    pointer-events: none;
+    animation:float 3s linear infinite;
+}
+@keyframes float{
+    0%, 100%{
+      transform: translateY(0rem);
+    }
+    50%{
+      transform: translateY(3rem);
+    }
+}
+.home .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 41rem;
+    flex: 1 1 41rem;
+}
+.home .content span {
+    font-size: 2rem;
+    color: #27ae60;
+}
+.home .content h3 {
+    font-size: 4rem;
+    color: #130f40;
+    padding-top: 1rem;
+}
+.home .content p {
+    font-size: 1.4rem;
+    color: #666;
+    line-height: 2;
+    padding: 1rem 0;
+}
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding-top: 0.7rem;
+    padding-right: 1.8rem;
+    padding-bottom: 0.7rem;
+    padding-left: 1.8rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: #fff;
+    background: #27ae60;
+    border-radius: .5rem;
+}
