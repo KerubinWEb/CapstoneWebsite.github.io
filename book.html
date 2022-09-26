@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gala Travel Agency-BOOK</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- boxicon -->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./ico/favicon.ico" type="image/x-icon">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo fw-bold"><span>GA</span>LA</a>
+
+    <nav class="navbar fw-semibold">
+        <a href="index.html" >home</a>
+        <a href="book.html" class=" active">book</a>
+        <a href="package.html">packages</a>
+        <a href="Services.html">services</a>
+        <a href="gallery.html">gallery</a>
+        <a href="Review.html">testimonials</a>
+        <a href="contact.html">contact</a>
+        <a href="register.html">register</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="button">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section ends -->
+<div class="container pt-5 book" id="book">
+    
+    <div class="row">
+        <h2 class=" text-center pb-5">
+            <span>B</span>
+            <span>O</span>
+            <span>O</span>
+            <span>K</span>
+            <span class=" ms-3">N</span>
+            <span>O</span>
+            <span>W</span>
+        </h2>
+        <div class="col-lg-6 img-rotate">
+            <img src="image/contact-img.svg" alt="airplane" style="width: 500px;">
+        </div>
+        <div class="col-lg-6 pt-5  book-form h-100 p-5">
+            <div class="mb-3 pt-3">
+                <h3>Where To</h3>
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Choose your location</option>
+                    <option value="1">El nido Palawan</option>
+                    <option value="2">Boracay</option>
+                    <option value="3">Siargao</option>
+                    <option value="4">Baguio</option>
+                    <option value="5">Ilocos</option>
+                    <option value="6">Bohol</option>
+                    <option value="7">Cebu</option>
+                    <option value="8">Mt.Mayon Albay</option>
+                    <option value="9">Mindanao</option>
+                    <option value="10">Visayas</option>
+                    <option value="11">Bataan</option>
+                    <option value="12">Manila</option>
+                  </select>
+              </div>
+              <div class="mb-3">
+                <h3>How Many</h3>
+                <input type="number" class="form-control form-control-lg" id="exampleFormControlInput2" placeholder="number of guest">
+              </div>
+              <div class="mb-3">
+                <h3>Arrivals</h3>
+                <input type="date" class="form-control form-control-lg" id="exampleFormControlInput3" >
+              </div>
+              <div class="mb-3">
+                <h3>Leaving</h3>
+                <input type="date" class="form-control form-control-lg" id="exampleFormControlInput4" >
+                <a href="#" class="button mt-5">book now</a>
+              </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer section -->
+<!-- footer section -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About Us</h3>
+            <p>We are GALA travel Agency in the Phillipines that will help you travel in all around places in Phillipines.</p>
+            <h3>Contact Us</h3>
+            <p>Phone: 63926656654<br>
+              Mobiel No: +639266566589<br>
+              Email Address: GalaAgency@gmail.com
+            </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Manila</a>
+            <a href="#">IloIlo</a>
+            <a href="#">Cebu</a>
+            <a href="#">Mindanao</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">home</a>
+            <a href="book.html">book</a>
+            <a href="package.html">packages</a>
+            <a href="Services.html">services</a>
+            <a href="gallery.html">gallery</a>
+            <a href="Review.html">testimonials</a>
+            <a href="contact.html">contact</a>
+            <a href="register.html">register</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <div class="boxicon">
+            <a href="https://www.facebook.com/"> <i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt ms-2' ></i></a>
+            <a href="https://twitter.com/?lang=en"><i class='bx bxl-twitter ms-2' ></i></a>
+            <a href="https://www.youtube.com/"><i class='bx bxl-youtube ms-2' ></i></a>
+          </div>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Mr. Kerubin Corpuz </span> | Let's GO! Kodego! </h1>
+
+</section>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js.js"></script>
+<!-- bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
