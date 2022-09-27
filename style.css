@@ -472,12 +472,12 @@ header .search-bar-container label:hover{
 }
 .gallery .overlay-text {
   position: absolute;
-  background-color: rgba(22, 34, 169, 0.5);
+  /* background-color: rgba(22, 34, 169, 0.5); */
   overflow: hidden;
   width: 100%;
   height:0;
   top: 0;
-  transition: 0.5 ease;
+  transition: 7s ease;
 }
 .gallery-item:hover .overlay-text{
   height: 100%;
@@ -508,8 +508,23 @@ header .search-bar-container label:hover{
 .gallery .gallery-item img {
   box-shadow: 0 1rem 2rem rgb(0 0 0 / 30%);
   border-radius: .5rem;
+  filter: grayscale(100%);
 }
-
+.gallery .inner {
+  overflow: hidden;
+}
+.gallery .inner img {
+  transition: all 4.0s ease;
+}
+.gallery .inner img:hover {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+/* .gallery .gallery-item{
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+  border-radius: 1rem !important;
+} */
 /* REVIEW SECTION */
 
 .review .review-slider{
