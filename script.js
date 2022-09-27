@@ -104,3 +104,15 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
   },
 });
+
+function myBook() {
+  alert("Booking Confirmed, Kindly Check you Email for more details, Thank you!");
+}
+
+function myRegister() {
+  alert("Thanks for registering!");
+}
+
+function myContact() {
+  alert("Thank you for contacting us here at Gala Travel & Tours Agency. We will be in touch soon. We look forward to serving you.");
+}
