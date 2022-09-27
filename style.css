@@ -796,7 +796,9 @@ body {
     .register {
       margin-top: 20%;
     }
-    
+    .book .img-rotate img {
+      width: 100% !important;
+    }
   }
   
   @media (max-width:450px){
@@ -843,5 +845,7 @@ body {
     .register {
       margin-top: 20%;
     }
-    
+    .book .img-rotate img {
+      width: 100% !important;
+    }
   }
